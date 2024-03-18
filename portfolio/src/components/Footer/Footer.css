@@ -1,0 +1,41 @@
+.footer-list {
+padding-left: 0; /* Remove default list padding */
+margin-bottom: 0; /* Adjust margin as needed */
+min-height: 10vh;
+}
+
+.footer-list li {
+margin: 0 8px; /* Spacing between icons */
+display: inline-flex; /* Use flex to center the content */
+justify-content: center;
+align-items: center;
+transition: transform 0.3s; /* Apply transition to the transform property */
+}
+
+.footer-list li a {
+width: 55px; /* Fixed width */
+height: 55px; /* Fixed height */
+display: flex; /* Flex to center the icon */
+justify-content: center;
+align-items: center;
+border: 1px solid grey; /* Border around the icon */
+border-radius: 50%; /* Circular border */
+color: grey;
+text-decoration: none;
+transition: color 0.3s, background-color 0.3s, border-color 0.3s; /* Transition for color and border color */
+}
+
+.footer-list li:hover {
+transform: translateY(-5px); /* Apply a transform on hover */
+transition-delay: 0s; /* Remove the initial delay on hover */
+}
+
+.footer-list li:hover a {
+border-color: white; /* Change border color on hover */
+color: white; /* Change icon color on hover */
+background-color: #333; /* Optional: background color change on hover */
+}
+
+.fa-lg { 
+font-size: 26px; /* Adjust the font size if needed */
+}

@@ -1,0 +1,101 @@
+.project-card {
+background-color: #333;
+color: white;
+border-radius: 8px;
+overflow: hidden;
+margin: 0;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+transition: transform 0.3s ease-in-out;
+margin-bottom: 15px; /* Added bottom margin */
+height: auto; /* Allows card to expand based on content */
+flex-direction: column;
+justify-content: space-between; /* This will push the button to the bottom */
+min-height:50vh; /* Set a minimum height for larger cards */
+height: auto; /* You can change this to a fixed height if you want a specific size */
+max-width: 450px; /* Set a maximum width for the card */
+}
+
+.project-card:hover {
+transform: translateY(-15px); /* Lift card on hover */
+}
+
+.project-info {
+padding: 15px;
+display: flex;
+flex-direction: column;
+justify-content: center; /* Center content vertically */
+flex-grow: 1; /* Allow the info section to fill the space */
+text-align: center;
+}
+
+.project-title {
+font-size: 1.6rem; /* Title font size */
+margin-bottom: 0.5rem; /* Space below title */
+}
+
+.project-description {
+font-size: 1.2rem; /* Description font size */
+margin-bottom: 1rem; /* Space above the buttons */
+flex-grow: 1; /* Allow the description to fill the space and push the buttons down */
+}
+
+.project-buttons {
+text-align: center; /* Center buttons horizontally */
+margin-top: 15px; /* Add space between the description and buttons */
+}
+
+.btn {
+text-decoration: none;
+color: white;
+padding: 10px 20px;
+border-radius: 4px;
+display: inline-block; /* Align buttons inline */
+margin-bottom: 15px; /* Space below the buttons */
+}
+
+/* Adjust the button width to match your design requirements */
+.btn-primary,
+.btn-secondary {
+width: 100%; /* Make the buttons full width */
+box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.btn-primary {
+background-color: #17a2b8; /* Bootstrap primary color */
+}
+
+.btn-secondary {
+background-color: #6c757d; /* Bootstrap secondary color */
+}
+
+.btn-primary:hover {
+background-color: darken(#17a2b8, 10%);
+}
+
+.btn-secondary:hover {
+background-color: darken(#6c757d, 10%);
+}
+
+/* Add additional responsive and layout styles as needed */
+
+@media (max-width: 768px) {
+.col-md-4 {
+flex: 0 0 100%; /* Full width on smaller screens */
+max-width: 100%; /* Full width on smaller screens */
+}
+.project-card {
+height: auto; /* Adjust height for smaller screens */
+}
+.project-image-placeholder {
+height: 200px; /* Adjust height for smaller screens */
+}
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    width: 100%; /* Adjust the width as necessary or use max-width for responsiveness */
+  }
+  

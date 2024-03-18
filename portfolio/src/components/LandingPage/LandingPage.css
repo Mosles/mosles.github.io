@@ -1,0 +1,93 @@
+
+.projects-section {
+padding: 30px; /* Added bottom padding to avoid footer collision */
+background-color: grey; /* Your desired background color */
+}
+
+
+.flex-container {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+.container {
+max-width: 100%; /* Ensure the container fills its parent width */
+margin-right: auto;
+margin-left: auto;
+}
+
+.row {
+display: flex;
+flex-wrap: wrap;
+justify-content: center; /* Centers the flex items (project cards) horizontally */
+margin-right: -15px;
+margin-left: -15px;
+}
+
+.top-header-section {
+background: linear-gradient(to bottom, #333, #000);
+
+display: flex;
+flex-direction: column; /* Stack elements vertically */
+align-items: center; /* Center horizontally */
+justify-content: center; /* Center vertically */
+text-align: center;
+padding: 20px;
+color: #fff;
+}
+
+
+.text-center {
+z-index: 2; /* Ensure the text is above any background effects */
+}
+
+.title-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 20vh; /* Set a specific height for the title container */
+}
+
+.landing-title {
+font-size: 4rem;
+font-weight: 700;
+text-transform: uppercase;
+margin-bottom: 0.5rem;
+}
+
+.landing-subtitle {
+font-size: 1.5rem;
+font-weight: 500;
+}
+
+.scroll-instruction {
+font-family: 'Rajdhani', sans-serif;
+font-size: 1rem;
+font-weight: 400; /* Rajdhani regular weight */
+animation: fadeInUp 2s ease-in-out infinite alternate; /* For a subtle animation */
+}
+
+@keyframes fadeInUp {
+from {
+opacity: 0;
+transform: translateY(10px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+.selfie-container {
+margin-bottom: 15px; /* Space between selfie and title */
+}
+
+.selfie-image {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+border: 3px solid white;
+object-fit: cover;
+}
