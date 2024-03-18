@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.48608a77.css",
+    "main.js": "/static/js/main.5ecd7d19.js",
+    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
+    "static/media/Hamodi.jpg": "/static/media/Hamodi.34a13406b8f2bb2632c4.jpg",
+    "static/media/Roadmap.PNG": "/static/media/Roadmap.7273df7d288bf85378b1.PNG",
+    "index.html": "/index.html",
+    "main.48608a77.css.map": "/static/css/main.48608a77.css.map",
+    "main.5ecd7d19.js.map": "/static/js/main.5ecd7d19.js.map",
+    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48608a77.css",
+    "static/js/main.5ecd7d19.js"
+  ]
+}
